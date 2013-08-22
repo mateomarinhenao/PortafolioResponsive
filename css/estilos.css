@@ -1,0 +1,133 @@
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-star:after {
+	font-family: 'icomoon';
+	color: grey;
+	float: right;
+	font-size: 1.5em;
+	margin-bottom: 0.2em;
+	text-align: center;
+	width: 10%;
+	content: "\e000";
+
+}
+.icon-arrow-up:before {
+	content: "\e001";
+}
+.icon-arrow-down:before {
+	content: "\e002";
+}
+
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+	background-color: black;
+}
+h1,h2{
+
+}
+header h1{
+	color: white;
+	display: inline-block;
+	font-size:3em;
+}
+header figure{	
+	display: inline-block;
+	float: right;
+	width: 10%;
+}
+		figure img{
+		height: auto;
+		width: 100%;
+		}
+nav{
+	background: blue;
+	clear: both;
+	padding: 0.09em;
+	width: 100%;
+}
+	nav ul{
+		list-style: none;
+
+	}
+		nav ul li {
+			display: inline-block;
+			margin-right: 1em;
+		}
+
+			nav ul li a{
+				color: white;
+				text-decoration: none;
+			}
+
+			nav ul li a:hover{
+				color:orange;
+			}
+section{
+	width: 100%;
+}
+	section article{
+		background-color: #EEE;
+		border: 3px solid blue;
+		margin: 0.3em 0 4em;
+		position: relative;
+
+	}
+	section article .contenidoarticulo{
+		display: inline-block;
+		width: 60%;
+	}
+		section article figure{
+			background-color: green;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0.1em;
+			width: 30%;
+		}
+		section article figure img{
+			margin-left: -15%;
+		}
+			section article h2{
+				display: inline-block;
+				font-size: 2em;
+			}
+
+		section article .votacion{
+			border: 2px solid red;
+			border-radius: 0 0 15px 15px;
+			background-color: #BBB;
+			position: absolute;
+			top: 100%;
+			text-align: center;
+			width: 30%;
+		}
+		section article .votacion p{
+			display: inline-block;
+			color: white;
+
+		}
+
+aside {
+	display: none;
+}
+
+footer{
+	background-color: grey;
+	color: black;
+	font-weight: bold;
+	padding: 2px;
+	text-align: center;
+}
